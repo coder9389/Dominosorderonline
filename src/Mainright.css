@@ -1,0 +1,106 @@
+.slider-container{
+
+    flex: 1;
+
+    position: relative;
+
+    max-width: 900px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* IMAGE */
+
+.banner-image{
+
+    width: 100%;
+
+    height: 450px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+/* ARROWS */
+
+.arrow{
+
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 55px;
+
+    height: 55px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background-color: white;
+
+    font-size: 28px;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+    transition: 0.3s;
+}
+
+.arrow:hover{
+
+    background-color: #f2f2f2;
+}
+
+/* LEFT */
+
+.left-arrow{
+
+    left: -28px;
+}
+
+/* RIGHT */
+
+.right-arrow{
+
+    right: -28px;
+}
+
+/* DOTS */
+
+.dots{
+
+    position: absolute;
+
+    bottom: -35px;
+
+    display: flex;
+
+    gap: 12px;
+}
+
+.dot{
+
+    width: 12px;
+
+    height: 12px;
+
+    border-radius: 50%;
+
+    background-color: #bbb;
+
+    cursor: pointer;
+}
+
+.active{
+
+    background-color: #222;
+}

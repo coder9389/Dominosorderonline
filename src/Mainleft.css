@@ -1,0 +1,72 @@
+.main-left{
+
+    flex: 1;
+
+    max-width: 520px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+/* HEADING */
+
+.main-left h1{
+
+    color: white;
+
+    font-size: 55px;
+
+    line-height: 1.1;
+
+    margin-bottom: 35px;
+
+    font-weight: bold;
+}
+
+/* PARAGRAPH */
+
+.main-left p{
+
+    color: white;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    margin-bottom: 50px;
+}
+
+/* BUTTON */
+
+.main-left button{
+
+    width: 220px;
+
+    height: 70px;
+
+    border: none;
+
+    background-color: #e31837;
+
+    color: white;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.main-left button:hover{
+
+    transform: scale(1.03);
+
+    opacity: 0.95;
+}
