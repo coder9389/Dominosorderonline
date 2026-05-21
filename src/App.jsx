@@ -10,7 +10,6 @@ return(
 <Header/>
 <Mainarea/>
 <h1 style={{ textAlign: "center" }}>Top Categories To Order From</h1>
-<br></br>
 <Item/>
 <h1 style={{ textAlign: "center", color:"red" }}>View Menus</h1>
 <ExclusiveDeals/>
