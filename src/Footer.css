@@ -1,95 +1,177 @@
-.footer{
+.footer {
 
     width: 100%;
 
-    background-color: #f2f2f2;
+    background: linear-gradient(
+        to right,
+        #f8f8f8,
+        #ececec
+    );
 
-    padding: 70px 90px;
+    padding: 80px 120px;
 
     display: flex;
 
     justify-content: space-between;
 
-    align-items: flex-start;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    border-top: 5px solid #006491;
 }
 
-/* LEFT SIDE */
+/* LEFT SECTION */
 
-.footer-left h2{
+.footer-left h2 {
 
-    font-size: 50px;
+    font-size: 42px;
+
+    font-weight: 700;
 
     color: #111;
 
-    margin-bottom: 15px;
+    margin-bottom: 12px;
+
+    letter-spacing: 1px;
 }
 
-.footer-left p{
+.footer-left p {
+
+    font-size: 20px;
+
+    color: #666;
+
+    margin-bottom: 35px;
+
+    font-weight: 500;
+}
+
+/* PAYMENT ICONS */
+
+.payment-methods {
+
+    display: flex;
+
+    gap: 18px;
+
+    align-items: center;
+}
+
+.payment-methods img {
+
+    width: 85px;
+
+    height: 50px;
+
+    object-fit: contain;
+
+    transition: all 0.3s ease;
+}
+
+.payment-methods img:hover {
+
+    transform: translateY(-5px) scale(1.08);
+
+    filter: drop-shadow(
+        0px 5px 10px rgba(0,0,0,0.15)
+    );
+}
+
+/* RIGHT SECTION */
+
+.footer-right {
+
+    text-align: center;
+}
+
+.footer-right h3 {
 
     font-size: 28px;
 
-    color: #555;
+    color: #444;
 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
-    font-weight: bold;
+    font-weight: 700;
 }
 
-/* PAYMENT IMAGES */
+/* SOCIAL ICONS */
 
-.payment-methods{
+.social-icons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 18px;
+}
+
+.social-icons a {
+
+    width: 55px;
+
+    height: 55px;
 
     display: flex;
 
     align-items: center;
 
-    gap: 20px;
-}
-
-.payment-methods img{
-
-    width: 90px;
-
-    object-fit: contain;
-}
-
-/* RIGHT SIDE */
-
-.footer-right{
-
-    text-align: center;
-}
-
-.footer-right h3{
-
-    font-size: 32px;
-
-    color: #555;
-
-    margin-bottom: 25px;
-}
-
-/* SOCIAL ICONS */
-
-.social-icons{
-
-    display: flex;
-
-    gap: 25px;
-
     justify-content: center;
+
+    border-radius: 50%;
+
+    background: white;
+
+    color: #222;
+
+    font-size: 28px;
+
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+    transition: all 0.3s ease;
 }
 
-.social-icons i{
+.social-icons a:hover {
 
-    font-size: 42px;
+    background: #e31837;
 
-    cursor: pointer;
+    color: white;
 
-    transition: 0.3s;
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 20px rgba(227,24,55,0.3);
 }
 
-.social-icons i:hover{
+/* RESPONSIVE */
 
-    transform: scale(1.1);
+@media (max-width: 768px) {
+
+    .footer {
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 40px;
+
+        padding: 50px 20px;
+    }
+
+    .payment-methods {
+
+        justify-content: center;
+    }
+
+    .footer-left h2 {
+
+        font-size: 34px;
+    }
+
+    .footer-left p {
+
+        font-size: 18px;
+    }
 }

@@ -5,12 +5,18 @@ import logo from "./assets/logo.png";
 
 import Showthings from "./Showthings";
 import ChangeLanguage from "./ChangeLanguage";
+import LoginSignup from "./LoginSignup";
 
 function Header() {
 
   const [clicked, setClicked] = useState(false);
 
   const [open, setOpen] = useState(false);
+
+  const [show, setShow] = useState(false);
+
+  const [selectedLocation, setSelectedLocation] =
+    useState("");
 
   return (
 
@@ -28,7 +34,9 @@ function Header() {
 
           <button
             className="delivery-btn"
-            onClick={() => setClicked(!clicked)}
+            onClick={() =>
+              setClicked((prev) => !prev)
+            }
           >
             Delivery
           </button>
@@ -39,12 +47,19 @@ function Header() {
 
           <button
             className="location-btn"
-            onClick={() => setClicked(!clicked)}
+            onClick={() =>
+              setClicked((prev) => !prev)
+            }
           >
-            Select Location
+            {selectedLocation || "Select Location"}
           </button>
 
-          <button className="change-btn">
+          <button
+            className="change-btn"
+            onClick={() =>
+              setClicked((prev) => !prev)
+            }
+          >
             CHANGE
           </button>
 
@@ -61,15 +76,31 @@ function Header() {
           English
         </button>
 
-        <button className="login-btn">
+        <button
+          className="login-btn"
+          onClick={() => setShow(true)}
+        >
           LOGIN / SIGN UP
         </button>
 
       </div>
 
-      {open && <ChangeLanguage setOpen={setOpen} />}
+      {open && (
+        <ChangeLanguage setOpen={setOpen} />
+      )}
 
-      {clicked && <Showthings />}
+      {clicked && (
+        <Showthings
+          setClicked={setClicked}
+          setSelectedLocation={
+            setSelectedLocation
+          }
+        />
+      )}
+
+      {show && (
+        <LoginSignup setShow={setShow} />
+      )}
 
     </div>
   );

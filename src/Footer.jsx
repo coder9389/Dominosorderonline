@@ -1,6 +1,10 @@
 import React from "react";
 import "./footer.css";
 
+import visa from "./assets/visa.jpg";
+import mastercard from "./assets/mastercard.png";
+import unionpay from "./assets/unionpay.svg";
+
 const Footer = () => {
 
   return (
@@ -16,8 +20,29 @@ const Footer = () => {
         </h2>
 
         <p>
-          Powered by LimeTray 2026
+          Powered by 
+          <b> Coder - 9389</b> 2026
         </p>
+
+        <div className="payment-methods">
+
+          <img
+            src={visa}
+            alt="Visa"
+          />
+
+          <img
+            src={mastercard}
+            alt="Mastercard"
+          />
+
+          <img
+            src={unionpay}
+            alt="UnionPay"
+          />
+
+        </div>
+
       </div>
 
       {/* RIGHT SIDE */}
@@ -30,15 +55,30 @@ const Footer = () => {
 
         <div className="social-icons">
 
-          <i className="fa-brands fa-instagram"></i>
+          <a
+            href="https://www.instagram.com/dominos_uae/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+          >
+            <i className="fa-brands fa-instagram"></i>
+          </a>
 
-          <i className="fa-brands fa-facebook-f"></i>
+          <a
+            href="https://www.facebook.com/DominosUAE/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Facebook"
+          >
+            <i className="fa-brands fa-facebook-f"></i>
+          </a>
 
         </div>
 
       </div>
 
     </div>
+
   );
 };
 
