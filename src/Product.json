@@ -1,0 +1,164 @@
+{
+  "data": {
+    "categories": [
+      {
+        "categoryId": 295303,
+        "categoryName": "Solo Domino's",
+        "productList": [
+          {
+            "productId": 2000395,
+            "productName": "Solo Pizza or Crunchy Fold",
+            "productDescription": "Small Pizza or Crunchy Fold, Potato Wedges, Chicken Kickers, Sauce Cup and 1 Can drink ||| بيتزا صغيرة أو كرنشي فولد، بطاطس ودجز، دجاج الكيكرز، صوص جانبي، ومشروب غازي صغير",
+            "productImageList": [
+              "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1775747294819_solo_pizza.jpg"
+            ],
+            "productSkuList": [
+              {
+                "productSkuId": 2350634,
+                "productSkuName": "",
+                "productSkuPrice": 0,
+                "reducedPrice": 0,
+                "outOfStock": false,
+                "productSkuImageList": [
+                  "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1775747294819_solo_pizza.jpg"
+                ]
+              }
+            ]
+          },
+          {
+            "productId": 2000397,
+            "productName": "Solo Pasta or Cheesy Bread",
+            "productDescription": "Pasta or Stuffed Cheesy Bread, Potato Wedges, Chicken Kickers, Sauce Cup and 1 Can drink ||| باستا أو تشيزي بريد، بطاطس ودجز، دجاج الكيكرز، صوص جانبي، ومشروب غازي صغير",
+            "productImageList": [
+              "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1775747384497_solo_pasta.jpg"
+            ],
+            "productSkuList": [
+              {
+                "productSkuId": 2350636,
+                "productSkuName": "",
+                "productSkuPrice": 0,
+                "reducedPrice": 0,
+                "outOfStock": false,
+                "productSkuImageList": [
+                  "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1775747384497_solo_pasta.jpg"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "categoryId": 284962,
+        "categoryName": "Offers",
+        "productList": [
+          {
+            "productId": 1917818,
+            "productName": "Family Offer",
+            "productDescription": "2 Large pizzas (in Hand Tossed crust), 1 side dish & 1 Large Drink (2) ||| 2 بيتزا كبيرة (بالعجينة الأصلية)، و1 صنف جانبي، ومشروب كبير (2 لتر)",
+            "productImageList": [
+              "https://assets.limetray.com/assets/user_images/menus/compressed/1726047188_1LargeAggregatorJahezOfferSAUDIMADE100924011.jpg"
+            ],
+            "productSkuList": [
+              {
+                "productSkuId": 2254977,
+                "productSkuName": "",
+                "productSkuPrice": 99,
+                "reducedPrice": null,
+                "outOfStock": false,
+                "productSkuImageList": [
+                  "https://assets.limetray.com/assets/user_images/menus/compressed/1726047188_1LargeAggregatorJahezOfferSAUDIMADE100924011.jpg"
+                ]
+              }
+            ]
+          },
+          {
+            "productId": 1860904,
+            "productName": "Gathering Box",
+            "productDescription": "Any 3 large pizzas (Hand Tossed Crust) with 4 kinds  of side dishes (Garlic Twist, Chicken Kickers, Potato Wedges, Stuffed Cheesy Bread) and 2L Drink||| أي 3 بيتزا كبيرة (العجينة الاصلية) مع 4 أنواع من الأطباق الجانبية (ثوم تويست، كيكرز الدجاج، بطاطا ويدجز، خبز محشو بالجبنة) ومشروب 2 لتر",
+            "productImageList": [
+              "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1774435416000_agg_gathring_box.jpg"
+            ],
+            "productSkuList": [
+              {
+                "productSkuId": 2191807,
+                "productSkuName": "",
+                "productSkuPrice": 139,
+                "reducedPrice": null,
+                "outOfStock": false,
+                "productSkuImageList": [
+                  "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1774435416000_agg_gathring_box.jpg"
+                ]
+              }
+            ]
+          },
+          {
+            "productId": 1860905,
+            "productName": "Medium Domino's Gathering Box.",
+            "productDescription": "Any 3 Medium pizzas (Hand Tossed Crust) with 3 kinds of side dishes (Chicken Kickers, Potato Wedges, Stuffed Cheesy Bread) and 1 L Drink ||| أي 3 بيتزا وسط (العجينة الاصلية) مع 3 أنواع من الأطباق الجانبية (تشيكن كيكرز، بطاطا ويدجز، خبز محشو بالجبنة) و 1 لتر مشروب",
+            "productImageList": [
+              "https://assets.limetray.com/assets/user_images/menus/compressed/1692277321_1687384238GatheringBoxM1040101.jpg"
+            ],
+            "productSkuList": [
+              {
+                "productSkuId": 2191808,
+                "productSkuName": "",
+                "productSkuPrice": 115,
+                "reducedPrice": null,
+                "outOfStock": false,
+                "productSkuImageList": [
+                  "https://assets.limetray.com/assets/user_images/menus/compressed/1692277321_1687384238GatheringBoxM1040101.jpg"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "categoryId": 293131,
+        "categoryName": "Pasta",
+        "productList": [
+          {
+            "productId": 1985295,
+            "productName": "Alfredo Chicken Pasta",
+            "productDescription": "Oven-baked penne pasta in creamy Alfredo Sauce with grilled Chicken, mozzarella cheese, American cheese, onions, green peppers, and black olives. Finished with a touch of oregano. ||| بيني باستا مخبوزة في الفرن بصلصة ألفريدو الكريمية، مع دجاج مشوي، وموزاريلا، وجبنة أمريكية، وبصل، وفلفل أخضر، وزيتون أسود.وأوريجانو.",
+            "productImageList": [
+              "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1768379580110_whatsapp_image_2026_01_14_at_2_01_30_pm_1.jpeg"
+            ],
+            "productSkuList": [
+              {
+                "productSkuId": 2334453,
+                "productSkuName": "",
+                "productSkuPrice": 29,
+                "reducedPrice": 0,
+                "outOfStock": false,
+                "productSkuImageList": [
+                  "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1768379580110_whatsapp_image_2026_01_14_at_2_01_30_pm_1.jpeg"
+                ]
+              }
+            ]
+          },
+          {
+            "productId": 1985391,
+            "productName": "Marinara Chicken Pasta",
+            "productDescription": "Oven-baked penne pasta in tomato sauce with grilled chicken, mozzarella cheese, American cheese, onions, green peppers, and black olives. Finished with a touch of oregano. ||| بيني باستا مخبوزة في الفرن بصلصة المارينارا، مع دجاج مشوي، وموزاريلا، وجبنة أمريكية، وبصل، وفلفل أخضر، وزيتون أسود. وأوريجانو",
+            "productImageList": [
+              "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1768379607813_whatsapp_image_2026_01_14_at_2_01_30_pm.jpeg"
+            ],
+            "productSkuList": [
+              {
+                "productSkuId": 2334549,
+                "productSkuName": "",
+                "productSkuPrice": 29,
+                "reducedPrice": 0,
+                "outOfStock": false,
+                "productSkuImageList": [
+                  "https://cdn.limetray.com/production/21671_dominos_ksa/product_5/1768379607813_whatsapp_image_2026_01_14_at_2_01_30_pm.jpeg"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

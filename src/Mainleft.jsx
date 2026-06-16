@@ -1,7 +1,11 @@
 import React from "react";
 import "./mainleft.css";
 
+import { useNavigate } from "react-router-dom";
+
 const Mainleft = () => {
+
+  const navigate = useNavigate();
 
   return (
 
@@ -18,7 +22,11 @@ const Mainleft = () => {
         committed to fee... read more
       </p>
 
-      <button>
+      <button
+        onClick={() =>
+          navigate("/menu")
+        }
+      >
         ORDER NOW
       </button>
 

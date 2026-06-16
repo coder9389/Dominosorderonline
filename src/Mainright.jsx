@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-
 import "./mainright.css";
 
 import banner1 from "./assets/banner1.jpg";
@@ -8,7 +7,6 @@ import banner3 from "./assets/banner3.jpg";
 import banner4 from "./assets/banner4.jpg";
 
 const Mainright = () => {
-
   const banners = [
     banner1,
     banner2,
@@ -18,28 +16,19 @@ const Mainright = () => {
 
   const [current, setCurrent] = useState(0);
 
-  /* AUTO SLIDE */
-
   useEffect(() => {
-
     const interval = setInterval(() => {
-
       setCurrent((prev) =>
         prev === banners.length - 1
           ? 0
           : prev + 1
       );
-
     }, 3000);
 
     return () => clearInterval(interval);
-
   }, []);
 
-  /* NEXT BUTTON */
-
   const nextSlide = () => {
-
     setCurrent((prev) =>
       prev === banners.length - 1
         ? 0
@@ -47,10 +36,7 @@ const Mainright = () => {
     );
   };
 
-  /* PREVIOUS BUTTON */
-
   const prevSlide = () => {
-
     setCurrent((prev) =>
       prev === 0
         ? banners.length - 1
@@ -59,14 +45,13 @@ const Mainright = () => {
   };
 
   return (
-
     <div className="slider-container">
 
       <button
         className="arrow left-arrow"
         onClick={prevSlide}
       >
-        ❮
+        &#10094;
       </button>
 
       <img
@@ -79,13 +64,11 @@ const Mainright = () => {
         className="arrow right-arrow"
         onClick={nextSlide}
       >
-        ❯
+        &#10095;
       </button>
 
       <div className="dots">
-
         {banners.map((_, index) => (
-
           <span
             key={index}
             className={
@@ -93,10 +76,8 @@ const Mainright = () => {
                 ? "dot active"
                 : "dot"
             }
-          ></span>
-
+          />
         ))}
-
       </div>
 
     </div>
